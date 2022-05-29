@@ -1,0 +1,63 @@
+body {
+    animation: fluido 3s ease infinite;
+    background-size: 300%;
+    background-color: #1d3557;
+}
+
+
+.padre {
+    padding: 10% 0;
+ }
+.container{
+    position: relative;
+}
+
+.preloader {
+    width: 100px;
+    height: 100px;
+    border: 10px solid #eee;
+    border-top: 10px solid #03045e;
+    border-radius: 50%;
+    animation-name: girar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin: auto;
+    padding: 12% ;
+    background-color: #eee;
+
+  }
+
+.python{
+    animation-name: girar1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+
+@keyframes fluido {
+    0% { background-position: 0 50% }
+    100% { background-position: 100% 50% }
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes girar1{
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(3.5,3.5);
+    }
+    100%{
+        transform: scale(1,1); 
+    }
+}
+
