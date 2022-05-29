@@ -4,13 +4,41 @@ body {
     background-color: #1d3557;
 }
 
+h1{
+    color: #eee;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 0%;    
+}
 
+p{
+    color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
 .padre {
     padding: 10% 0;
  }
 .container{
     position: relative;
 }
+
+.containerP{
+    display: flex;
+    margin-left : 10rem;
+    margin-right : 10rem;
+}
+
+.subcontainer{
+    display: inline-block;
+    margin: auto;
+}
+
+.icon2{
+    width: 200px;
+    height: 200px;
+}
+
+
 
 .preloader {
     width: 100px;
